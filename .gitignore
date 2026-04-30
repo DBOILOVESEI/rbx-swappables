@@ -13,5 +13,9 @@
 /*.rbxm
 /*.rbxmx
 
+# Godot
+./godot/.godot
+./godot/.editorconfig
+
 # Misc
 .DS_Store
