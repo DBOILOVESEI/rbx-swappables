@@ -1,8 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1777534095
-icon.svg::CompressedTexture2D::1790880795757653::1776761014::1776761018::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Scenes/::1777533773
-Camera.tscn::PackedScene::4110486560454847670::1777532039::0::1::::<><><>0<>0<><>::uid://8n33w3d5qxge::::res://Scripts/Camera.gd
-Main.tscn::PackedScene::1888705108584480242::1777533773::0::1::::<><><>0<>0<><>::uid://bytfd30lb6ybm::::res://Scenes/Camera.tscn
-::res://Scripts/::1777533674
-Camera.gd::GDScript::2344820027829922668::1777533674::0::1::::<>Camera3D<><>0<>0<><>::
+::res://::1777535102
+icon.svg::CompressedTexture2D::1790880795757653::1777534630::1777534630::1::::<><><>0<>0<>1d558fff71561543e2cf7e0d300c3350<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Scenes/::1777534630
+Camera.tscn::PackedScene::4110486560454847670::1777534630::0::1::::<><><>0<>0<><>::uid://8n33w3d5qxge::::res://Scripts/Camera.gd
+Main.tscn::PackedScene::1888705108584480242::1777534630::0::1::::<><><>0<>0<><>::uid://bytfd30lb6ybm::::res://Scenes/Camera.tscn
+::res://Scripts/::1777534630
+Camera.gd::GDScript::2344820027829922668::1777534630::0::1::::<>Camera3D<><>0<>0<><>::
