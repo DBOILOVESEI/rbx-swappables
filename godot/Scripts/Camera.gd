@@ -22,7 +22,7 @@ var MouseInputBuffer = Vector2.ZERO
 ## MAIN
 func _physics_process(delta: float):
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	Yaw -= MouseInputBuffer.x * Sensitivity
+	Yaw -= wrapf(MouseInputBuffer.x * Sensitivity, -180, 180)
 	Pitch = clamp(Pitch - (MouseInputBuffer.y * Sensitivity), MinPitch, MaxPitch)
 	
 	MouseInputBuffer = Vector2.ZERO
