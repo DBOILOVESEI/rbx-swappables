@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://155xx7s6y6ta"]
+
+[ext_resource type="PackedScene" uid="uid://bytfd30lb6ybm" path="res://Scenes/Camera.tscn" id="1_r150o"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_r150o"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_idj7w"]
+
+[node name="Main" type="Node3D" unique_id=752503443]
+
+[node name="Camera" parent="." unique_id=1414727132 node_paths=PackedStringArray("FocusObject") instance=ExtResource("1_r150o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09926736, 0)
+FocusObject = NodePath("../Bean")
+
+[node name="Baseplate" type="MeshInstance3D" parent="." unique_id=751514653]
+transform = Transform3D(100, 0, 0, 0, 1, 0, 0, 0, 100, 0, 0, 0)
+mesh = SubResource("BoxMesh_r150o")
+
+[node name="Bean" type="MeshInstance3D" parent="." unique_id=462852474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4635547, 0)
+mesh = SubResource("CapsuleMesh_idj7w")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=269346564]
+transform = Transform3D(1, 0, 0, 0, -0.05686699, 0.99838173, 0, -0.99838173, -0.05686699, 0, 9.597714, 0)
