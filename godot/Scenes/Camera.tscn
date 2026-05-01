@@ -2,5 +2,11 @@
 
 [ext_resource type="Script" uid="uid://8n33w3d5qxge" path="res://Scripts/Camera.gd" id="1_yqtc1"]
 
-[node name="Camera" type="Camera3D" unique_id=1414727132]
+[node name="Camera" type="Camera3D" unique_id=1000046578]
 script = ExtResource("1_yqtc1")
+
+[node name="RayCast" type="RayCast3D" parent="." unique_id=634169460]
+process_priority = 2
+process_physics_priority = 2
+top_level = true
+collide_with_areas = true

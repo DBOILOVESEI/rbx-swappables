@@ -14,7 +14,7 @@
 /*.rbxmx
 
 # Godot
-./godot/.godot
+./godot/.godot/
 ./godot/.editorconfig
 
 # Misc

@@ -1,7 +1,11 @@
-DirectionalLight3D
+StaticBody3D
+CollisionShape3D
 MeshInstance3D
+RigidBody3D
+Area3D
+RayCast3D
 Camera3D
 SpringArm3D
-CollisionShape3D
+WorldEnvironment
+DirectionalLight3D
 CharacterBody3D
-RigidBody3D
