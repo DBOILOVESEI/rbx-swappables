@@ -46,7 +46,7 @@ func _process(delta: float) -> void:
 	# Get position vector based on direction
 	var rotationQuat = Quaternion.from_euler(lookVectorRad)
 	var desiredCameraPos = rotationQuat * Offset
-		
+	
 	var result: RayCast3D = get_wall_position(focusPos, desiredCameraPos)
 	if result is RayCast3D:
 		var wallPos = result.get_collision_point()

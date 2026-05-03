@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dqojtyf4in0y3"]
+
+[ext_resource type="Script" uid="uid://cwhdp8ypor23b" path="res://Scenes/CharacterController.gd" id="1_0y7nr"]
+[ext_resource type="Material" uid="uid://cxu4ruojoisin" path="res://Assets/Materials/BlackMaterial.tres" id="2_jo2ib"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0j3ql"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_0y7nr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_677pu"]
+
+[node name="Character" type="CharacterBody3D" unique_id=34963447]
+script = ExtResource("1_0y7nr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1769551460]
+shape = SubResource("CapsuleShape3D_0j3ql")
+
+[node name="Body" type="MeshInstance3D" parent="." unique_id=781688798]
+mesh = SubResource("CapsuleMesh_0y7nr")
+
+[node name="SickGlasses" type="MeshInstance3D" parent="Body" unique_id=383771414]
+transform = Transform3D(0.70063764, 0, 0, 0, 0.2800972, 0, 0, 0, 0.45148063, 0, 0.44961166, -0.39102304)
+material_override = ExtResource("2_jo2ib")
+mesh = SubResource("BoxMesh_677pu")
